@@ -1,0 +1,36 @@
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+
+.pl-0 {
+  padding-left: 1rem;
+}
+
+.text-color-primary {
+  color: var(--primary-green);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.main-title {
+ color: var(--maintitle-color);
+}
+
+.list-stype-none {
+  list-style-type: none;
+}
+
+.section-title {
+  text-align: center;
+}

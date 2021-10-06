@@ -1,0 +1,64 @@
+@import 'overrides.css';
+@import 'utils.css';
+@import 'icons.css';
+@import 'variables.css';
+@import 'topnav.css';
+@import 'footer.css';
+
+#app {
+  height: 100%;
+}
+#app > #layout {
+  height: 100%;
+}
+
+#content {
+  margin: 0 auto;
+  z-index: -1;
+}
+
+#content>section {
+  text-align: justify;
+  padding: 0 10px;
+  color: #ffffffd0;
+}
+
+#content>section>.section-title {
+  color: var(--primary-green);
+}
+
+#content>section>.section-title {
+  margin-block-start: 0;
+}
+
+@media screen and (max-width: 576px) {
+  #content {
+    max-width: 100%;
+  }
+}
+
+#cv {
+  margin: auto;
+  padding: 0 15px;
+}
+
+
+#cv > section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#contact > ul > li {
+  display: flex;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+#technologies ul li {
+  padding: 0.3rem;
+}
+
+#main_technologies_css>ul {
+  list-style-type: square;
+}

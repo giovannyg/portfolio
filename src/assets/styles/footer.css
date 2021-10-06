@@ -1,0 +1,11 @@
+@import 'variables.css';
+
+#wide_screen_footer {
+  height: 40px;
+  padding: 0 3px 3px 3px;
+  background-color: var(--nav-menu-bgcolor);
+  color: #6b6b6b;
+  font-size: 0.85em;
+  display: flex;
+  align-items: flex-end;
+}
